@@ -22,7 +22,7 @@ const swiper = new Swiper(".swiper", {
 
   slidesPerView: 4,
   spaceBetween: 30,
-  centeredSlides: true,
+  centeredSlides: false,
   breakpoints: {
     240: {
       centeredSlides: true,

@@ -2,7 +2,7 @@ import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.brow
 window.onload = function () {
   myFunction();
 };
-let myVar
+let mylet;
 function myFunction() {
   myVar = setTimeout(showPage);
 }
@@ -135,3 +135,4 @@ const swiper3 = new Swiper(".sample-slider2", {
     delay: 0,
   },
 });
+

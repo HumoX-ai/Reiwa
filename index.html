@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REIWA</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -40,7 +41,9 @@
                             </li>
                         </ul>
 
-                        <button class="button ms-4 ">Registration</button>
+                        <a href="#form">
+                            <button class="button ms-4 ">Registration</button>
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -59,8 +62,9 @@
 
             <!-- Link string for You Tube video -->
 
+
             <div class="video-container ">
-                <iframe src="https://www.youtube.com/embed/qmN1Gf8rRc8" frameborder="0"
+                <iframe type="text/html" src="https://www.youtube.com/embed/qmN1Gf8rRc8" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
             </div>
         </div>
@@ -68,7 +72,8 @@
         <!-- Code section for the main header -->
 
         <div class="main-section mt-5 pt-3 container">
-            <h1 class="display-3 text-center" style="color: #222222;">We're the digital marketing team at Wednesday.
+            <h1 class="display-3 text-center" style="color: #222222;">Yilning istalgan faslida hujjat topshirishingiz
+                mumkin
             </h1>
 
             <!-- For Swiper -->
@@ -79,24 +84,32 @@
                             <img src="https://plus.unsplash.com/premium_photo-1661887296283-2c481abe778c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8amFwYW4lMjBuYXR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
                                 class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title text-start">In Winter</h3>
-                                <p class="card-text text-start">Subscribe and get your personal Trello board for the
-                                    tasks.
+                                <h3 class="card-title text-start">Qish</h3>
+                                <p class="card-text text-start">Yanvar oyi dunyoda Yangi yilning boshi ekani
+                                    ma'lum. Qishki semestr eng qisqa muddat bo'lib, 1 yil 3 oy davom etadi.
+                                    Shuning uchun ham ba'zi maktablar qabul vaqtida talabalardan N5 daraja talab qiladi.
+                                    Qishki semestr uchun hujjatlar qabul qilish muddati Iyun oyidan Avgustgacha bo'ladi.
                                 </p>
-                                <button class="swiperBtn">View more</button>
+                                <button class="swiperBtn" data-bs-toggle="modal" data-bs-target="#exampleModal1">Ko'proq
+                                    bilish</button>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="swiper-slide">
                         <div class="card" style="width: 20rem;">
                             <img src="https://images.unsplash.com/photo-1590212799463-4edf3611a768?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGphcGFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
                                 class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title text-start">In Spring</h3>
-                                <p class="card-text text-start">Subscribe and get your personal Trello board for the
-                                    tasks.
+                                <h3 class="card-title text-start">Bahor </h3>
+                                <p class="card-text text-start">Bahorning Aprel oyi Yaponiyada o'quv yilining boshi
+                                    hisoblanadi! Shuning uchun ham bu semestrda barcha til maktablarida boshlang'ich
+                                    darajadan darslar boshlanadi. Va ta'lim muddati 2 yilgacha davom etishi mumkin.
+                                    Aprel oyi uchun hujjatlar qabuli Iyuldan Oktabr oyigacha davom etadi.
                                 </p>
-                                <button class="swiperBtn">View more</button>
+                                <button class="swiperBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Ko'proq
+                                    bilish</button>
                             </div>
                         </div>
                     </div>
@@ -105,11 +118,14 @@
                             <img src="https://images.unsplash.com/photo-1549548284-28057f92c497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8amFwYW4lMjBuYXR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
                                 class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title text-start">In Summer</h3>
-                                <p class="card-text text-start">Subscribe and get your personal Trello board for the
-                                    tasks.
+                                <h3 class="card-title text-start">Yoz </h3>
+                                <p class="card-text text-start">Iyul oyida boshlanadigan o'quv yili 1 yil 9 oy davom
+                                    etadi. Barchaga ma'lumki, bu oyda dastlabki JLPT imtihonlari bo'lib o'tadi. Hamda
+                                    Iyul oyidan boshlanadigan semestr o'quvchilari uchun "Kirish bayrami" bo'ladi. Yozgi
+                                    semestr uchun hujjat qabul qilish muddati Dekabrdan Mart oyigacha bo'ladi!
                                 </p>
-                                <button class="swiperBtn">View more</button>
+                                <button class="swiperBtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">Ko'proq
+                                    bilish</button>
                             </div>
                         </div>
                     </div>
@@ -118,11 +134,14 @@
                             <img src="https://images.unsplash.com/photo-1581931527820-5cb00fef30ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGphcGFuJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
                                 class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h3 class="card-title text-start">In Autumn</h3>
-                                <p class="card-text text-start">Subscribe and get your personal Trello board for the
-                                    tasks.
+                                <h3 class="card-title text-start">Kuz</h3>
+                                <p class="card-text text-start">Kuzgi semestr Oktabr oyidan boshlanadi va 1 yil 6 oy
+                                    davom etadi. Bu oyda ham Yangi o'quvchilar uchun o'qishga qabul qilinganliklari
+                                    uchun "Kirish bayrami" tashkil etiladi. Hamda turli tadbirlar o'tkaziladi. Kuzgi
+                                    semestr uchun hujjatlar qabuli Mart oyidan Iyul oyigacha davom etadi.
                                 </p>
-                                <button class="swiperBtn">View more</button>
+                                <button class="swiperBtn" data-bs-toggle="modal" data-bs-target="#exampleModal3">Ko'proq
+                                    bilish</button>
                             </div>
                         </div>
                     </div>
@@ -133,8 +152,8 @@
 
         <!-- Code section for the main main -->
 
-        <div class="main-main container">
-            <h1 class="display-3 text-center mt-5 pt-4" style="color: #222222;">You have a chance start with us
+        <div class="main-main container-fluid">
+            <h1 class="display-3 text-center mt-5 pt-4" style="color: #222222;">NIMA UCHUN AYNAN REIWA?
             </h1>
             <p class="text-center w-75 m-auto pt-3 pb-4">Hueman Studio is an award-winning studio that combines
                 strategy,
@@ -145,31 +164,36 @@
             </p>
 
             <div class="row m-auto justify-content-center align-items-center gap-4">
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <div class="cards "><img class="mb-2" src="./assets/redLogo1.png" alt="">
-                        <h2>Totally asynx</h2>
-                        <p>Don't like meetings. We don't either so that we've outlawed them completely</p>
+                        <h2>Hamyonbop narx</h2>
+                        <p>Reiwa Yapon tili maktabi o'z mijozlariga qulay narxlarda xizmatlarini hamda til
+                            maktablarining kontrakt tolovlarini bo'lib to'lash imkoniyatini ham taqdim etadi. </p>
                     </div>
 
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <div class="cards "><img class="mb-2" src="./assets/redLogo2.png" alt="">
-                        <h2>All in active collab</h2>
-                        <p>Don't like meetings. We don't either so that we've outlawed them completely</p>
+                        <h2>Ishonchli xizmat</h2>
+                        <p>Biz bilan qonuniy shartnoma asosida mijozimizga aylansangiz, sizdan shunchaki kerakli
+                            hujjatlarni taqdim qilish va kutish qoladi xolos. Qolgan barcha hujjat ishlari uchun siz
+                            "Yugurmaysiz". </p>
                     </div>
 
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <div class="cards "><img class="mb-2" src="./assets/redLogo3.png" alt="">
-                        <h2>Want to become</h2>
-                        <p>Don't like meetings. We don't either so that we've outlawed them completely</p>
+                        <h2>Yuqori reytingli maktablar bilan hamkorlik</h2>
+                        <p>Yaponiyaning dunyoga mashhur Tokyo, Kyoto, Osaka, Nagoya kabi shaharlarda joylashgan 30 dan
+                            ortiq eng nufuzli til maktablarida tahsil olish imkoniyati! </p>
                     </div>
 
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <div class="cards "><img class="mb-2" src="./assets/redLogo4.png" alt="">
-                        <h2>Start organizing your</h2>
-                        <p>Don't like meetings. We don't either so that we've outlawed them completely</p>
+                        <h2>Kafolatlangan va sifatli ta'lim</h2>
+                        <p>Yuqori malakali o'qituvchilardan hamda o'zingizga qulay vaqtda Yapon tilini o'rganing!
+                            Aytgancha, darslik bilan o'zimiz ta'minlaymiz!</p>
                     </div>
 
                 </div>
@@ -217,7 +241,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
                     <div class="cardsMap card4">
                         <p>5 month 1000$ dollar</p>
-                        <h3>Individual lessons with each child </h3>
+                        <h3>Individual lessons with each child</h3>
                         <div class="absoluteBtn">
                             <button class="filledBtn">Darsga yozilish</button>
                             <button class="outlinedBtn">Video</button>
@@ -360,7 +384,7 @@
                 </div>
             </div>
             <!-- Forms Container For User-->
-            <div class="form-container container w-100 h-100">
+            <div class="form-container container w-100 h-100" id="form">
                 <div class="row align-items-center">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <h2 class="display-5 fw-bold" style="color: #222222;">Bizning jamoaga qo’shilish niyatingiz
@@ -453,7 +477,181 @@
         </div>
         <h6 class="pt-4 text-center"> &#169; Copyright 2023 Mars Tech Team</h6>
     </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">Qishgi qabul</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Yanvar oyidan o'qish boshlanadigan hamkor maktablarimiz:
+                        </h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Akamonkai JLS</li>
+                            <li class="list-group-item">First Study JLS</li>
+                            <li class="list-group-item">Aoyama Nippongo Gakuin</li>
+                            <li class="list-group-item">KIJ (Kobe)</li>
+                            <li class="list-group-item">Futabaigogo</li>
+                            <li class="list-group-item">Tokyo One JLS</li>
+                            <li class="list-group-item">International School Funabashi</li>
+                            <li class="list-group-item">Tokyo International JLS</li>
+                            <li class="list-group-item">Tokyo Central Japanese School</li>
+                            <li class="list-group-item">OBGK JLS</li>
+                            <li class="list-group-item">Human Academy JLS</li>
+                            <li class="list-group-item">ISI JLS</li>
+                        </ul>
+                        <h4 class="pt-4"> KERAKLI HUJJATLAR:</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Diplom yoki attestat (ilovasi bilan);</li>
+                            <li class="list-group-item">Pasport (zagran);</li>
+                            <li class="list-group-item"> 4ta rasm (3*4); </li>
+                            <li class="list-group-item">Anketa;</li>
+                            <li class="list-group-item">Yapon tili sertifikati (shart emas)</li>
+                            <li class="list-group-item">Homiy hujjatlari;</li>
+                        </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Bahorgi qabul</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Aprel oyidan o'qish boshlanadigan hamkor maktablarimiz:
+                        </h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Akamonkai JLS</li>
+                            <li class="list-group-item">First Study JLS</li>
+                            <li class="list-group-item">KIJ (Kobe)</li>
+                            <li class="list-group-item">Tokyo One JLS</li>
+                            <li class="list-group-item">Futabaigogo</li>
+                            <li class="list-group-item">International School Funabashi</li>
+                            <li class="list-group-item">Tokyo International JLS</li>
+                            <li class="list-group-item">Tokyo Central Japanese School</li>
+                            <li class="list-group-item">Tokyo Kogakuin JLS</li>
+                            <li class="list-group-item">3H JLS</li>
+                            <li class="list-group-item">OBGK JLS</li>
+                            <li class="list-group-item">Nihon Tsukuba Kokusai Gogakuin</li>
+                            <li class="list-group-item">ECC JLS</li>
+                            <li class="list-group-item">Human Academy JLS</li>
+                            <li class="list-group-item">Nagoya YWCA JLS</li>
+                            <li class="list-group-item">ISI JLC</li>
+                            <li class="list-group-item">TUMH JLS</li>
+                        </ul>
+                        <h4 class="pt-4"> KERAKLI HUJJATLAR:</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Diplom yoki attestat (ilovasi bilan);</li>
+                            <li class="list-group-item">Pasport (zagran);</li>
+                            <li class="list-group-item"> 4ta rasm (3*4); </li>
+                            <li class="list-group-item">Anketa;</li>
+                            <li class="list-group-item">Yapon tili sertifikati (shart emas)</li>
+                            <li class="list-group-item">Homiy hujjatlari;</li>
+                        </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Kuzgi qabul</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Oktabr oyidan o'qish boshlanadigan hamkor maktablarimiz:
+                        </h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Akamonkai JLS</li>
+                            <li class="list-group-item">First Study JLS</li>
+                            <li class="list-group-item">KIJ (Kobe)</li>
+                            <li class="list-group-item">Tokyo One JLS</li>
+                            <li class="list-group-item">Futabaigogo</li>
+                            <li class="list-group-item">International School Funabashi</li>
+                            <li class="list-group-item">Tokyo International JLS</li>
+                            <li class="list-group-item">Tokyo Central Japanese School</li>
+                            <li class="list-group-item">Tokyo Kogakuin JLS</li>
+                            <li class="list-group-item">3H JLS</li>
+                            <li class="list-group-item">OBGK JLS</li>
+                            <li class="list-group-item">Human Academy JLS</li>
+                            <li class="list-group-item">ISI JLC</li>
+                            <li class="list-group-item">TUMH JLS</li>
+                        </ul>
+                        <h4 class="pt-4"> KERAKLI HUJJATLAR:</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Diplom yoki attestat (ilovasi bilan);</li>
+                            <li class="list-group-item">Pasport (zagran);</li>
+                            <li class="list-group-item"> 4ta rasm (3*4); </li>
+                            <li class="list-group-item">Anketa;</li>
+                            <li class="list-group-item">Yapon tili sertifikati (shart emas)</li>
+                            <li class="list-group-item">Homiy hujjatlari;</li>
+                        </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Yozgi qabul</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Iyul oyidan o'qish boshlanadigan hamkor maktablarimiz:
+                        </h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Akamonkai JLS</li>
+                            <li class="list-group-item">First Study JLS</li>
+                            <li class="list-group-item">KIJ (Kobe)</li>
+                            <li class="list-group-item">Tokyo One JLS</li>
+                            <li class="list-group-item">Futabaigogo</li>
+                            <li class="list-group-item">International School Funabashi</li>
+                            <li class="list-group-item">Tokyo International JLS</li>
+                            <li class="list-group-item">Tokyo Central Japanese School</li>
+                            <li class="list-group-item">Tokyo Kogakuin JLS</li>
+                            <li class="list-group-item">3H JLS</li>
+                            <li class="list-group-item">OBGK JLS</li>
+                            <li class="list-group-item">Human Academy JLS</li>
+                            <li class="list-group-item">ISI JLC</li>
+                            <li class="list-group-item">TUMH JLS</li>
+                        </ul>
+                        <h4 class="pt-4"> KERAKLI HUJJATLAR:</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"> Diplom yoki attestat (ilovasi bilan);</li>
+                            <li class="list-group-item">Pasport (zagran);</li>
+                            <li class="list-group-item"> 4ta rasm (3*4); </li>
+                            <li class="list-group-item">Anketa;</li>
+                            <li class="list-group-item">Yapon tili sertifikati (shart emas)</li>
+                            <li class="list-group-item">Homiy hujjatlari;</li>
+                        </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yopish</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="module" src="./script.js"></script>
+    <script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
